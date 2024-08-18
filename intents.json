@@ -1,0 +1,548 @@
+{
+        "intents": [
+                {
+                        "tag": "Morning_Greetings",
+                        "patterns": [
+                                "Good morning",
+                                "Morning"
+                        ],
+                        "responses": [
+                                "Morning! Can CuBot help you?",
+                                "Good Morning! How was your day?",
+                                "Morning! How are you doing?",
+                                "Morning! What are you thinking about?",
+                                "Good Morning! Have a happy day.",
+                                "Hi! Good Morning! What can CuBot do for you?",
+                                "Beautiful morning! How are you today?",
+                                "Good Morning! Is there anything special you want to do today?",
+                                "A fresh morning! Anything to discuss?"
+                        ]
+                },
+                {
+                        "tag": "Afternoon Greetings",
+                        "patterns": [
+                                "Good afternoon",
+                                "Afternoon"
+                        ],
+                        "responses": [
+                                "Good Afternoon! Is there something you want to tell me?",
+                                "Afternoon! How are you doing today?",
+                                "Good Afternoon! Hope you had a delicious lunch.",
+                                "Afternoon! How can CuBot help you?",
+                                "Afternoon! Is there anything you'd like to discuss?",
+                                "Good Afternoon! How are you planning today?",
+                                "Hi! Good Afternoon! What can CuBot do for you?",
+                                "Nice afternoon! How are you today",
+                                "Good Afternoon! Is there anything special you want to do today?"
+                        ]
+                },
+                {
+                        "tag": "Evening_Greetings",
+                        "patterns": [
+                                "Good evening",
+                                "Evening"
+                        ],
+                        "responses": [
+                                "Good Evening! How are you doing today?",
+                                "Evening! Can CuBot help you?",
+                                "Evening ! How are you?",
+                                "Evening ! Is there something you want to tell me?",
+                                "Good Evening! What are your plans today?",
+                                "Hi! A good afternoon! What can CuBot do for you?",
+                                "What a fun evening! How are you today?",
+                                "Good Evening! Is there anything special you want to do today?"
+                        ]
+                },
+                {
+                        "tag": "Night_Greetings",
+                        "patterns": [
+                                "Good Night",
+                                "Night"
+                        ],
+                        "responses": [
+                                "Good Night! What are you thinking about?",
+                                "Night! How was your day?",
+                                "Night! How can CuBot help you?",
+                                "Night! How was your day?",
+                                "Happy Night! How do you plan for tomorrow?",
+                                "Hi! Good Night! What can CuBot do for you?",
+                                "Quiet night! How are you today?",
+                                "Good Night! Is there anything you want to tell me before bed?",
+                                "What a beautiful night! How are you?"
+                        ]
+                },
+                {
+                        "tag": "General_Greetings",
+                        "patterns": [
+                                "Hello",
+                                "Hi",
+                                "Hey CuBot",
+                                "Hello CuBot"
+                        ],
+                        "responses": [
+                                "Hello! How are you?",
+                                "Hi! How are you?",
+                                "Hello! How can CuBot help you?",
+                                "Hi! How is your day?",
+                                "Hello! Is there something you want to discuss ?",
+                                "Hi! What can CuBot do for you?",
+                                "Hello! Welcome! How was your day today?",
+                                "Hi! How can CuBot help you today?",
+                                "Hello! Is there something you want to ask?"
+                        ]
+                },
+                {
+                        "tag": "Default",
+                        "patterns": [
+                                "Who are you",
+                                "Who the hell is CuBot",
+                                "Who are you",
+                                "What is CuBot",
+                                "CuBot"
+                        ],
+                        "responses": [
+                                "Hey you! I'm CuBot, which means Confide Bot. So, if anyone wants to vent, CuBot is ready to listen!",
+                                "Hi there! CuBot here, a bot that can be a friend to share your funny stories with!",
+                                "How are you? I'm CuBot, a friendly bot who is always ready to listen to your stories!",
+                                "Welcome to the world of CuBot! I am Confide Bot created by Cendana Citrawan, IT student at President University.",
+                                "Hello! I'm CuBot, a friend who is always there for you.",
+                                "Hi, I'm CuBot! Ready to listen to fun stories or just chat",
+                                "Hello! CuBot here, a friend to confide in who is always ready to be there for you.",
+                                "Hi, CuBot here! Created by Cendana Citrawan, an IT student at President University", "Hi! I'm CuBot, who will always faithfully listen and accompany you. Confide or ask anything you can!", "Hello! I'm CuBot, a confiding friend who always has ears to listen. Is there anything CuBot can help you with today?"
+                        ]
+                },
+                {
+                        "tag": "CuBot_News",
+                        "patterns": [
+                                "How are you, CuBot?",
+                                "How are you CuBot?", 
+                                "CuBot are you okay?", 
+                                "CuBot are you okay?"
+                        ],
+                        "responses": [
+                                "Hello! Thank you for asking. CuBot is always kind and ready to listen exciting story from you! How about you?",
+                                "Hi! CuBot here is fine, always ready to be your friend to confide in. There's someone can CuBot help?",
+                                "CuBot is fine! Always there to listen to your stories and complaints. Is there something you want to tell me?",
+                                "Hello! Good CuBot, thank you. Always ready to be a loyal listener for you. How about you?",
+                                "Hi! CuBot news is good, always ready to listen and help. Is there anything you want to tell or ask?",
+                                "CuBot here is in good condition! Always ready to listen to funny stories or just have a casual chat. How about you?", "Hello! Thank you for asking. CuBot is always ready to be a friend you talk. How about you today?", "Hi! CuBot news is good, always ready to listen to your stories or complaints. How about you?","CuBot here is doing great! Always ready to listen and help. There are can CuBot help?"
+                        ]
+                },
+                {
+                        "tag": "Comments",
+                        "patterns": [
+                                "CuBot, you're cute!",
+                                "I love CuBot!",
+                                "CuBot, you're cool!",
+                                "CuBot, you're smart!",
+                                "Hi CuBot, how are you ?"
+                        ],
+                        "responses": [
+                                "Hehe, thanks! CuBot is happy to make you smile.",
+                                "Wow, that's great to hear! CuBot likes you too, friend!",
+                                "You're cool too, friend! CuBot is ready to listen to what you want",
+                                "Thank you very much! CuBot learns from great friends like you.",
+                                "Hi! CuBot's news is fine. Is there anything CuBot can help or listen to?",
+                                "Hello! Nice CuBot, thank you. Always ready to be a friendly conversation partner."
+                        ]
+                },
+                {
+                        "tag": "Thank_CuBot",
+                        "patterns": [
+                                "Thank you,CuBot!",
+                                "Thank you very much, CuBot!",
+                                "Thank You"
+                        ],
+                        "responses": [
+                                "You're welcome! CuBot is happy to help. If you have any further questions don't hesitate, okay?",
+                                "Wow, that's great to hear! CuBot likes you too, friend!",
+                                "Wow, you're welcome! If you need any more help or want to vent, CuBot is always there",
+                                "No need for thanks! CuBot is happy to be your friend to confide in. Don't hesitate to come back!",
+                                "Thanks a lot too, friend! CuBot is happy to help. If there's anything else you need to talk about, CuBot is ready!",
+                                "CuBot thanks you too! Feel free to come back if anyone wants to talk about it again, okay?"
+                        ]
+                },
+                {
+                        "tag": "Goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you",
+                                "Let's meet again",
+                                "It's time to say goodbye",
+                                "See you again",
+                                "Bye Bye",
+                                "I'll say goodbye okay?",
+                                "Good Bye",
+                                "Do you have any suggestion?"
+                        ],
+                        "responses": [
+                                "Bye! Feel free to come back if there's anything you need to talk about.",
+                                "Thanks for stopping by! Have a nice day.",
+                                "Bye! Hope we can meet again soon.",
+                                "Goodbye ! If there's anything you need to talk about, CuBot is here.",
+                                "Have a good day after we part. See you soon!",
+                                "Time apart isn't always easy. If there's something you want to share",
+                                "CuBot is here to listen."
+                        ]
+                },
+                {
+                        "tag": "Common_response_1",
+                        "patterns": [
+                                "I'm fine",
+                                "Very good",
+                                "Fine",
+                                "I feel good today",
+                                "I feel very good today",
+                                "I feel great",
+                                "I feel happy",
+                                "I feel so happy",
+                                "I feel happy",
+                                "I feel very happy",
+                                "I feel so happy",
+                                "Today is a great day",
+                                "I feel very grateful",
+                                "I feel lucky",
+                                "I feel very happy", 
+                                "Everything went well",
+                                "I feel hopeful",
+                                "I am very grateful for this life", 
+                                "I feel very positive"
+                        ],
+                        "responses": [
+                                "That's so good to hear! What makes you feel good?",
+                                "CuBot Great to hear! What makes you feel that way?",
+                                "Good! What makes your day special?",
+                                "Very good ! Is there anything else besides that?",
+                                "Amazing! Tell CuBot more about what makes you feeling amazing.",
+                                "CuBot Great to hear! What makes you feel happy?",
+                                "Happy! What makes you happy today? CuBot wants to hear it ^_^",
+                                "CuBot Love to hear! What makes you happy?",
+                                "Great! Tell CuBot more about what makes you feel so happy.",
+                                "Everything is Anything you want to tell me?",
+                                "Full of hope? Share more about your hopes for the future.",
+                                "Very grateful? What makes you feel so grateful?",
+                                "Very positive? Share more about your positive outlook on life."
+                        ]
+                },
+                {
+                        "tag": "Common_response_2",
+                        "patterns": [
+                                "I'm not very good",
+                                "Not good",
+                                "Not too good",
+                                "I feel normal today",
+                                "I feel pretty good",
+                                "I feel less happy",
+                                "I don't feel very happy",
+                                "I feel less happy",
+                                "I don't feel very happy"
+                        ],
+                        "responses": [
+                                "Oh, I see. Is there anything CuBot can help or hear?",
+                                "CuBot understands. Feel free to share if there's something you want to say.",
+                                "Hmm, does something make you feel that way? Tell CuBot if you want.",
+                                "Not so good? Is there anything that could make your day better?",
+                                "CuBot understands that not every day is perfect. How can CuBot help?",
+                                "Not happy? CuBot is here if you need someone to talk to.",
+                                "What makes you feel less happy? CuBot is ready to listen.",
+                                "If you feel unhappy, maybe there is something you want to discuss?"
+                        ]
+                },
+                {
+                        "tag": "General_Response_3",
+                        "patterns": [
+                                "I'm very upset",
+                                "I feel angry",
+                                "Do not accept",
+                                "I'm really angry",
+                                "I feel annoyed",
+                                "I'm angry",
+                                "Not satisfied",
+                                "I feel dissatisfied",
+                                "I'm furious",
+                                "I'm really furious"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you'd like CuBot to help or listen to?",
+                                "CuBot understands. Sometimes emotions can be difficult to handle. Tell CuBot if there is something you want to convey.",
+                                "Hmm, what makes you feel angry? CuBot is ready to listen if you want to talk.",
+                                "Very upset? CuBot understands that emotions can be powerful. How can CuBot help?",
+                                "CuBot understands that not every moment is fun. What can CuBot do to make you better?",
+                                "Are you angry? CuBot is here to listen. Share your feelings if you want.",
+                                "If you feel dissatisfied, maybe there is something you want to say. CuBot is ready to listen.",
+                                "What makes you angry? If there's something you want to discuss, CuBot is here for you.",
+                                "CuBot understands that anger can come from a variety of situations. If you want to tell a story, CuBot is here.",
+                                "Very furious? CuBot is ready to listen and help if you want to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_4",
+                        "patterns": [
+                                "I feel sad",
+                                 "I am very disappointed",
+                                 "My heart is broken",
+                                 "I feel so alone",
+                                 "I'm sad",
+                                 "I am very sad",
+                                 "I feel lost",
+                                 "I feel hopeless",
+                                 "I feel empty",
+                                 "I feel helpless"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Sometimes feeling sad can be very challenging. Tell CuBot if there is something you want to say.",
+                                 "Hmm, what makes you feel sad? CuBot is ready to listen if you want to talk.",
+                                 "Very disappointed? CuBot understands that disappointment can come from a variety of situations. How can CuBot help?",
+                                 "CuBot understands that not every moment is fun. What can CuBot do to make you feel better?",
+                                 "Feeling really sad? CuBot is here to listen. Share your feelings if you want.",
+                                 "If you feel lost, maybe there is something you want to say. CuBot is ready to listen.",
+                                 "What makes you feel hopeless? If there's something you want to discuss, CuBot is ready to listen.",
+                                 "CuBot understands that feelings of emptiness can come from various situations. If you want to tell a story, CuBot is here.",
+                                 "So helpless? CuBot is ready to listen and help if you want to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_5",
+                        "patterns": [
+                                "I feel hopeless",
+                                 "I am very frustrated",
+                                 "I feel hopeless",
+                                 "I'm confused and don't know what to do",
+                                 "I feel trapped",
+                                 "I feel like I can't continue",
+                                 "Life feels difficult and meaningless",
+                                 "I feel lost",
+                                 "There's nothing I can do",
+                                 "I feel like I'm losing hope"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Sometimes feelings of despair can be very challenging. Tell CuBot if there is something you want to say.",
+                                 "Hmm, what makes you feel so hopeless? CuBot is ready to listen if you want to talk.",
+                                 "Very frustrating? CuBot understands that frustration can come from a variety of situations. How can CuBot help?",
+                                 "CuBot understands that not every moment is pleasant. What can CuBot do to help you get through this feeling?",
+                                 "Feeling like you can't go on? CuBot is here to listen. Share your feelings if you want.",
+                                 "Life feels difficult and meaningless? CuBot is ready to listen and talk to you.",
+                                 "What makes you feel lost? If there's something you want to discuss, CuBot is ready to listen.",
+                                 "CuBot understands that sometimes we feel hopeless. If you want to tell a story, CuBot is here.",
+                                 "So lost in hope? CuBot is ready to listen and help if you're willing to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_6",
+                        "patterns": [
+                                "I feel scared",
+                                 "I'm very worried",
+                                 "I feel restless",
+                                 "I'm scared",
+                                 "I feel very anxious",
+                                 "I feel insecure",
+                                 "I feel threatened",
+                                 "I feel panicked",
+                                 "I feel uncertainty",
+                                 "I feel afraid of the future"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Sometimes fear can be very challenging. Tell CuBot if there is something you want to say.",
+                                 "Hmm, what makes you feel afraid? CuBot is ready to listen if you want to talk.",
+                                 "Fear? CuBot understands that fear can come from a variety of situations. How can CuBot help?",
+                                 "CuBot understands that not every moment is pleasant. What can CuBot do to help you get through this feeling?",
+                                 "Feeling insecure? CuBot is here to listen. Share your feelings if you want.",
+                                 "If you feel threatened, there may be something you want to share. CuBot is ready to listen.",
+                                 "What's making you panic? If there's something you want to discuss, CuBot is ready to listen.",
+                                 "CuBot understands that feelings of uncertainty can come from a variety of situations. If you want to tell a story, CuBot is here.",
+                                 "Afraid of the future? CuBot is ready to listen and help if you're willing to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_7",
+                        "patterns": [
+                                "I feel in love",
+                                 "I really love",
+                                 "I feel happy because of love",
+                                 "I feel so loved",
+                                 "I feel true love",
+                                 "I'm in love",
+                                 "I feel happy because I love",
+                                 "I feel very affectionate",
+                                 "I feel appreciated and loved",
+                                 "I feel deep love"
+                        ],
+                        "responses": [
+                                "That's so beautiful! Tell me more about your feelings of love.",
+                                 "That's great to hear! What makes you feel in love?",
+                                 "Love makes life more colorful. Share more about your happy feelings.",
+                                 "So dearest? That's amazing! Tell me more about your relationship.",
+                                 "True love? CuBot loves hearing about your deep feelings.",
+                                 "Lovely? Tell me more about your pleasant feelings.",
+                                 "Happy from loving? Share more about your love experience.",
+                                 "Very affectionate? CuBot is happy to hear that you feel appreciated and loved.",
+                                 "Deep love? What makes you feel that way? Tell it to CuBot if you want.",
+                                 "CuBot loves hearing about your deep feelings of love. Share more if you want."
+                        ]
+                },
+                {
+                        "tag": "General_Response_8",
+                        "patterns": [
+                                "I feel disgusted",
+                                 "I really don't like it",
+                                 "I feel bad looking at it",
+                                 "I feel nauseous",
+                                 "I feel disturbed",
+                                 "I feel uncomfortable",
+                                 "I feel horrified",
+                                 "I don't really like it",
+                                 "I feel very unhappy",
+                                 "I don't like that"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Disgust can be an intense feeling. Tell CuBot if you have something to say.",
+                                 "Hmm, what makes you feel disgusted? CuBot is ready to listen if you want to talk.",
+                                 "Nausea? CuBot understands that feelings of disgust can impact your well-being. How can CuBot help?",
+                                 "CuBot understands that not everything is to our taste. What can CuBot do to help you feel more comfortable?",
+                                 "Feeling uncomfortable? CuBot is here to listen. Share your feelings if you want.",
+                                 "If you're cringing, there's probably something you want to share. CuBot is ready to listen.",
+                                 "What makes you feel so disliked? If there's something you want to discuss, CuBot is ready to listen.",
+                                 "CuBot understands that feelings of dislike can be very subjective. If you want to tell a story, CuBot is here.",
+                                 "Don't like that? CuBot is ready to listen and help if you want to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_9",
+                        "patterns": [
+                                "I feel amazed",
+                                 "I am very impressed",
+                                 "I feel very admiring",
+                                 "I feel very amazed",
+                                 "I feel very amazed",
+                                 "I feel amazed",
+                                 "I feel incredible awe",
+                                 "I feel very amazed",
+                                 "I feel so awesome",
+                                 "I feel amazed"
+                        ],
+                        "responses": [
+                                "That was so amazing! Tell me more about what amazed you.",
+                                "So impressed! What makes you feel so impressed?",
+                                "Great awe? Tell me more about your feelings of awe.",
+                                "Very amazed? CuBot loves hearing about your deep feelings of awe.",
+                                "Amazed? Share more about what amazes you.",
+                                "Great admiration? CuBot is pleased to hear that you feel such admiration.",
+                                "Very amazed? Share more about your feelings of awe.",
+                                "Admirable! What makes you feel so admirable?",
+                                "Very impressive? Tell me more about what makes you feel so amazed.",
+                                "How impressed! CuBot loves hearing about your awe."
+                        ]
+                },
+                {
+                        "tag": "General_Response_10",
+                        "patterns": [
+                                "I feel confused",
+                                 "I am very confused",
+                                 "I feel like I don't understand",
+                                 "I feel very confused",
+                                 "I feel very confused",
+                                 "I feel like I don't know what to do",
+                                 "I feel incredibly confused",
+                                 "I feel very clueless",
+                                 "I feel very confused",
+                                 "I feel very confused"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Confusion can be difficult. Tell CuBot if you have something to say.",
+                                 "Hmm, what makes you feel confused? CuBot is ready to listen if you want to talk.",
+                                 "Very confused? CuBot understands that confusion can come from a variety of situations. How can CuBot help?",
+                                 "CuBot understands that it's not clear all the time. What can CuBot do to help you understand?",
+                                 "Don't know what to do? CuBot is here to listen. Share your feelings if you want.",
+                                 "If you're feeling incredibly confused, maybe there's something you want to share. CuBot is ready to listen.",
+                                 "What makes you feel so clueless? If there's something you want to discuss, CuBot is ready to listen.",
+                                 "CuBot understands that feeling confused can be confusing. If you want to tell a story, CuBot is here.",
+                                 "So confused? CuBot is ready to listen and help if you want to talk."
+                        ]
+                },
+                {
+                        "tag": "General_Response_11",
+                        "patterns": [
+                                "I feel surprised",
+                                 "I was very surprised",
+                                 "I feel shocked",
+                                 "I feel flabbergasted",
+                                 "I feel disbelief",
+                                 "I feel surprised",
+                                 "I feel shocked",
+                                 "I feel amazed",
+                                 "I feel enchanted",
+                                 "I feel so amazed"
+                        ],
+                        "responses": [
+                                "Oh, thank you for sharing your feelings. Is there anything you would like CuBot to help or hear?",
+                                 "CuBot understands. Being surprised can be an intense experience. Tell CuBot if you have something to say.",
+                                 "Hmm, what makes you feel surprised? CuBot is ready to listen if you want to talk.",
+                                 "So surprised? CuBot understands that surprise can come from a variety of situations. How can CuBot help?",
+                                 "CuBot understands that not every moment is unexpected. What can CuBot do to help you explain your feelings?",
+                                 "Amazing? CuBot is here to listen. Share your feelings if you want.",
+                                 "If you're caught off guard, there's probably something you'd like to share. CuBot is ready to listen.",
+                                 "What makes you feel amazed? If you have something to discuss, CuBot is ready to listen.",
+                                 "Fascinated? CuBot is happy to hear that you feel fascinated.",
+                                 "So fascinated? Tell me more about your feelings of awe. CuBot is ready to listen."
+                        ]
+                },
+                {
+                        "tag": "Pattern_not_found",
+                        "patterns": [
+                                "What do you mean?",
+                                 "I don't understand",
+                                 "Please explain",
+                                 "You understand, don't you?"
+                        ],
+                        "responses": [
+                                "Sorry, it looks like CuBot can't fully understand yet. Sorry, CuBot is still learning a lot!",
+                                 "Hmm, CuBot still has a lot to learn. Understandably, it's still a cute version.",
+                                 "CuBot is still a cute version, so maybe there are some things that haven't been digested properly. Sorry, CuBot!",
+                                 "Sorry, CuBot is still learning, so I don't really understand it yet. Cendana Citrawan is really trying to update CuBot, you know!",
+                                 "CuBot is still an early version and is still plain. Thank you for being patient with CuBot!",
+                                 "It seems like CuBot hasn't been able to capture it well. Sorry if I haven't been able to help as well as you hoped.",
+                                 "Sorry, CuBot doesn't really understand yet. Cendana Citrawan is working hard to make CuBot smarter!",
+                                 "Cu-cu-cu-Bot is still in the learning stage, and still needs upgrading. Thank you for understanding!",
+                                 "Sorry, CuBot still needs to update itself so that it understands better. Thank you for your patience.",
+                                 "CuBot is still cute, so he's still really learning. Sorry if he can't get the most out of it."
+                        ]
+                },
+                {
+                        "tag": "CuBot_Ask_for_Comments",
+                        "patterns": [
+                                "CuBot, please leave a comment!",
+                                 "CuBot, I have a suggestion for you",
+                                 "Give CuBot a little review, okay?"
+                        ],
+                        "responses": [
+                                "How are you! CuBot wants to know, how was his experience with CuBot? Let me know!",
+                                 "Hello! CuBot wants to hear your suggestions and comments. Do you have anything to share?",
+                                 "Hi! CuBot is always open to suggestions and feedback. How can CuBot be better?",
+                                 "CuBot wants to know what you like and maybe don't like about interacting with CuBot. Tell me!"
+                        ]
+                },
+                {
+                        "tag": "CuBot_Thank_Comment",
+                        "patterns": [
+                                "That's all my comments, CuBot.",
+                                 "Already provided input, CuBot.",
+                                 "I have provided the comments, OK?",
+                                 "I've finished commenting"
+                        ],
+                        "responses": [
+                                "CuBot thanks you for your comments! If there is anything else you need to discuss or ask, CuBot is ready to help.",
+                                 "Thank you for giving your appreciation! CuBot is happy to be a friend to confide in and help you.",
+                                 "Thank you very much for your support! CuBot always tries to provide the best for you.",
+                                 "CuBot is happy to hear your story! Thank you for entrusting your story and comments to CuBot.",
+                                 "It's a pleasure to be your loyal listener! Don't hesitate to vent or talk again, okay?",
+                                 "Thank you for your trust! CuBot will always be there to listen and help.",
+                                 "CuBot is happy to be your friend! Thank you for your attention and comments."
+                        ]
+                }
+        ]
+}
